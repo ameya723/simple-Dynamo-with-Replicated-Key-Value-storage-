@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+
+
+
+    <TextView
+        android:id="@+id/chatMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="316dp"
+        android:scrollbars="vertical" >
+
+    </TextView>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+
+
+        <Button
+            android:id="@+id/getButton"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="Get" />
+
+        <Button
+            android:id="@+id/dumpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dump" />
+
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+
+
+        <Button
+            android:id="@+id/put1Button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Put 1" />
+
+        <Button
+            android:id="@+id/put2Button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Put 2" />
+        
+        <Button
+            android:id="@+id/put3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Put 3" />
+        
+
+    </LinearLayout>
+     
+     
+
+</LinearLayout>
